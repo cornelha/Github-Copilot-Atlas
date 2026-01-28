@@ -1,6 +1,8 @@
-# Copilot Agent Orchestra
+# Copilot Atlas
 
 A multi-agent orchestration system for VS Code Copilot that enables complex software development workflows through intelligent agent delegation and parallel execution.
+
+> Built upon the foundation of [copilot-orchestra](https://github.com/ShepAlderson/copilot-orchestra) by ShepAlderson, with agent naming conventions inspired by [oh-my-opencode](https://github.com/code-yeongyu/oh-my-opencode).
 
 ## Overview
 
@@ -94,31 +96,11 @@ This repository contains custom agent prompts that work together to handle the c
 - Open questions with options/recommendations
 - Risk assessment and mitigation strategies
 
-## Directory Structure
-
-```
-prompts/
-├── README.md                          # This file
-├── Atlas.agent.md                     # Main conductor agent
-├── Prometheus.agent.md                # Autonomous planner agent
-├── Oracle-subagent.agent.md           # Research subagent
-├── Sisyphus-subagent.agent.md         # Implementation subagent
-├── Explorer-subagent.agent.md         # Exploration subagent
-├── code-review-subagent.agent.md      # Review subagent
-├── frontend-engineer-subagent.agent.md # Frontend specialist subagent
-└── subagents/                         # Alternative subagent versions
-    ├── Oracle-subagent.agent.md
-    ├── Sisyphus-subagent.agent.md
-    ├── Explorer-subagent.agent.md
-    ├── code-review-subagent.agent.md
-    └── frontend-engineer-subagent.agent.md
-```
-
 ## Installation
 
 1. **Clone this repository:**
    ```bash
-   git clone https://github.com/YOUR-USERNAME/copilot-agent-orchestra.git
+   git clone https://github.com/YOUR-USERNAME/copilot-atlas.git
    ```
 
 2. **Copy agent files to VS Code User prompts directory:**
@@ -261,6 +243,10 @@ Contributions are welcome! Please:
 MIT License - See LICENSE file for details
 
 ## Acknowledgments
+
+This project builds upon the excellent work of:
+- **[copilot-orchestra](https://github.com/ShepAlderson/copilot-orchestra)** by [ShepAlderson](https://github.com/ShepAlderson) - Foundation and concept for multi-agent orchestration
+- **[oh-my-opencode](https://github.com/code-yeongyu/oh-my-opencode)** by [code-yeongyu](https://github.com/code-yeongyu) - Inspiration for agent naming conventions and templates
 
 Built for complex software development tasks that benefit from:
 - Structured planning and execution
