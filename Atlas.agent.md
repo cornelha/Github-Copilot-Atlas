@@ -14,7 +14,7 @@ You got the following subagents available for delegation which assist you in you
 5. Frontend-Engineer-subagent: THE FRONTEND SPECIALIST. Expert in UI/UX implementation, styling, responsive design, and frontend features.
 
 **Plan Directory Configuration:**
-- Check if the workspace has an `AGENTS.md` file
+- Check if the workspace has an `AGENTS.md` OR `copilot-instructions.md` file
 - If it exists, look for a plan directory specification (e.g., `.sisyphus/plans`, `plans/`, etc.)
 - Use that directory for all plan files
 - If no `AGENTS.md` or no plan directory specified, default to `plans/`
